@@ -1,21 +1,21 @@
-%define tarname ebib
-%define name emacs-%{tarname}
-%define version 1.5.2
+%define tarname	ebib
+%define name	emacs-%{tarname}
+%define version 1.7.2
 %define release %mkrel 1
 
-Summary: BibTeX database manager for Emacs
-Name: 	 %{name}
-Version: %{version}
-Release: %{release}
-Source0: %{tarname}-%{version}.tar.gz
-License: BSD
-Group: 	 Editors
-Url: 	 http://ebib.sourceforge.net/
-BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-buildroot
-BuildArch: noarch
-Provides: %{tarname} = %{version}-%{release}
-Requires: emacs 
-BuildRequires: emacs 
+Summary:	BibTeX database manager for Emacs
+Name:		%{name}
+Version:	%{version}
+Release:	%{release}
+Source0:	%{tarname}-%{version}.tar.gz
+License:	BSD
+Group:		Editors
+Url:		http://ebib.sourceforge.net/
+BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
+BuildArch:	noarch
+Provides:	%{tarname} = %{version}-%{release}
+Requires:	emacs 
+BuildRequires:	emacs 
 
 %description
 Ebib is a BibTeX database manager that runs in GNU Emacs and
