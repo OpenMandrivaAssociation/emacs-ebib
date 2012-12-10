@@ -1,6 +1,6 @@
 %define tarname	ebib
 %define name	emacs-%{tarname}
-%define version 1.8.0
+%define version 1.7.2
 %define release %mkrel 1
 
 Summary:	BibTeX database manager for Emacs
@@ -53,4 +53,16 @@ EOF
 %_sysconfdir/emacs/site-start.d/ebib.*
 %_datadir/emacs/site-lisp/ebib*
 %_infodir/*
+
+
+
+%changelog
+* Wed Feb 04 2009 Lev Givon <lev@mandriva.org> 1.7.2-1mdv2009.1
++ Revision: 337547
+- Update to 1.7.2.
+
+* Tue Jul 08 2008 Lev Givon <lev@mandriva.org> 1.5.2-1mdv2009.0
++ Revision: 232643
+- import emacs-ebib
+
 
