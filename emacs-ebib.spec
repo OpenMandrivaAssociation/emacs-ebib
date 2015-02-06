@@ -1,7 +1,7 @@
 %define tarname	ebib
 %define name	emacs-%{tarname}
 %define version 1.7.2
-%define release %mkrel 1
+%define release 2
 
 Summary:	BibTeX database manager for Emacs
 Name:		%{name}
