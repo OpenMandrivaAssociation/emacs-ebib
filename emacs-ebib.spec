@@ -10,7 +10,7 @@ Release:	%{release}
 Source0:	%{tarname}-%{version}.tar.gz
 License:	BSD
 Group:		Editors
-Url:		http://ebib.sourceforge.net/
+Url:		https://ebib.sourceforge.net/
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildArch:	noarch
 Provides:	%{tarname} = %{version}-%{release}
